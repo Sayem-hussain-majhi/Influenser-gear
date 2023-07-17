@@ -43,7 +43,7 @@ ul li a {
     font-size: 1rem;
 }
 
-.banner-container{
+.banner-container {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ ul li a {
     font-weight: 600;
 }
 
-.banner-img{
+.banner-img {
     width: 400px;
     padding: 10px;
     background-image: url(./images/Circle\ design.svg);
@@ -72,7 +72,7 @@ ul li a {
     background-repeat: no-repeat;
 }
 
-.banner-img img{
+.banner-img img {
     width: 100%;
     position: relative;
     padding: 30px;
@@ -87,18 +87,107 @@ ul li a {
     background-color: var(--color-secondray);
 }
 
-.company-logo{
+.company-logo {
     margin: 40px auto;
     max-width: 1440px;
     padding: 5px;
-   border-bottom: 1px solid var(--color-secondray) ;
-   border-top: 1px solid var(--color-secondray) ;
+    border-bottom: 1px solid var(--color-secondray);
+    border-top: 1px solid var(--color-secondray);
 }
 
-.company-logo img{
+.company-logo img {
     width: 80px;
     padding: 5px;
     margin: 0 30px;
 }
 
 /* main section releted styles */
+.sub-title {
+    padding: 20px;
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container {
+    padding: 0 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    max-width: 1440px;
+}
+
+.box {
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.box i {
+    color: #FB8200;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.pro-title {
+    color: #18191F;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.pro-description {
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 10px;
+    letter-spacing: 0.252px;
+}
+
+.see-btn{
+    background: transparent;
+    color: var(--color-secondray);
+    position: relative;
+    left: 825px;
+}
+
+/* footer styles */
+footer{
+    height: 30vh;
+    background: #0A0826;
+    text-align: center;
+    color: #FFF;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+footer h2{
+    font-size: 1rem;
+}
+
+footer p{
+    font-size: 0.7rem;
+}
+
+footer div i{
+    padding: 20px 10px;
+}
+
